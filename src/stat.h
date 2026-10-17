@@ -63,7 +63,7 @@ typedef struct _stat_rewr_t {
 
 void	stat_display(int intv, int ansi);
 #else
-void	stat_display();
+void	stat_display(int intv, int ansi);
 #endif
 
 #endif

@@ -54,7 +54,7 @@
 
 //void	sys_err_printf(char *fmt, ...);
 
-void	prepare_tty();
+void	prepare_tty(int just_copy);
 void	reset_tty();
 int	key_pressed();
 

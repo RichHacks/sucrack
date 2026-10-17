@@ -293,7 +293,7 @@ main(int argc, char **argv)
 		}
 #else
 		if (o != -1) {
-		    stat_display();
+		    stat_display(0, ansi);
 		}
 #endif	
 	    }

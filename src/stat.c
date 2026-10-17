@@ -144,8 +144,10 @@ stat_display(int intv, int ansi)
 #else 
 
 void
-stat_display()
+stat_display(int intv, int ansi)
 {
+    (void) intv;
+    (void) ansi;
     stat_dict_t *dstat;
     dict_get_stats(&dstat);
     printf("%i/%i\n", dstat->bnum, dstat->fsize);
